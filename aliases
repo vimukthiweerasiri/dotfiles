@@ -1,4 +1,5 @@
 # Unix
+alias c="clear"
 alias tlf="tail -f"
 alias ln='ln -v'
 alias mkdir='mkdir'

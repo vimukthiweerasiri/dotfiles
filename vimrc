@@ -1,7 +1,7 @@
 set shell=/bin/bash
 runtime macros/matchit.vim
 " use old regext engine. speed up ruby syntax highlighting
-set re=1
+" set re=1
 
 set ttyfast
 set lazyredraw
@@ -120,11 +120,18 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+
+" follding settings
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "dont fold by default
+set foldlevel=1         "this is just what i use
+
 let g:rspec_command = 'call Send_to_Tmux("bin/rspec {spec}\n")'
 let g:rspec_runner = "os_x_iterm"
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·
+" set list listchars=tab:»·,trail:·
 
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
 if executable('ag')
