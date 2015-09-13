@@ -153,7 +153,6 @@ set t_Co=256
 :set noantialias
 
 " Color scheme
-colorscheme solarized
 set background=dark
 set encoding=utf-8
 
