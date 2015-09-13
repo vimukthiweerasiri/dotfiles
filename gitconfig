@@ -14,6 +14,9 @@
   pr = !hub pull-request
   st = status
   up = !git fetch origin && git rebase origin/master
+  cm = commit -m
+  cmm = commit -m "rushing commit"
+  a = add -A
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
@@ -24,8 +27,8 @@
 [commit]
 	template = /Users/mike/.gitmessage
 [user]
-  name = Mike Coutermarsh
-  email = coutermarsh.mike@gmail.com
+  name = Vimukthi Weerasiri
+  email = vimukthiweerasiri@gmail.com
 [diff]
     tool = Kaleidoscope
 [difftool "Kaleidoscope"]
@@ -35,7 +38,7 @@
   trustExitCode = true
 [difftool "sourcetree"]
 	cmd = /usr/local/bin/ksdiff -w \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true

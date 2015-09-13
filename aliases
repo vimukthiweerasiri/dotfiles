@@ -1,13 +1,7 @@
-alias s="osascript ~/dotfiles/SpotifyControl/SpotifyControl.scpt"
-alias sn="osascript ~/dotfiles/SpotifyControl/SpotifyControl.scpt next"
-alias sp="osascript ~/dotfiles/SpotifyControl/SpotifyControl.scpt prev"
-# Now playing: Cher - Believe
-alias sb="osascript ~/dotfiles/SpotifyControl/SpotifyControl.scpt start spotify:track:2goLsvvODILDzeeiT4dAoR"
-
 # Unix
 alias tlf="tail -f"
 alias ln='ln -v'
-alias mkdir='mkdir -p'
+alias mkdir='mkdir'
 alias ...='../..'
 alias l='ls'
 alias ll='ls -al'
@@ -26,6 +20,7 @@ alias rake='noglob rake'
 # git
 alias g='git'
 alias gs='git status -sb'
+alias ga='git add -A && git status'
 # copy the current branch name
 alias gcb='git rev-parse --abbrev-ref HEAD | pbcopy'
 # because i make this typo a lot
