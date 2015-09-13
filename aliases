@@ -21,6 +21,7 @@ alias rake='noglob rake'
 alias g='git'
 alias gs='git status -sb'
 alias ga='git add -A && git status'
+alias gam='git add -A && git status && git commit -m'
 # copy the current branch name
 alias gcb='git rev-parse --abbrev-ref HEAD | pbcopy'
 # because i make this typo a lot
