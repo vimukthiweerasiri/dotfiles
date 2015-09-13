@@ -29,6 +29,9 @@ alias ggs='gs'
 # open a pull request, requires Hub to be installed (hub.github.com)
 alias gpr='git pull-request'
 
+# meteor
+alias m='meteor'
+
 # Bundler
 alias b="bundle"
 alias bi="bundle install"
