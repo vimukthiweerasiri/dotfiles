@@ -44,3 +44,10 @@
 	trustExitCode = true
 [credential]
 	helper = osxkeychain
+[http]
+[http]
+[http]
+[http]
+[https]
+[http]
+[https]
